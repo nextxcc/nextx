@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Cpu, ArrowRight, Menu, X, Globe, Mail } from 'lucide-react';
+import { ArrowRight, Menu, X, Globe, Mail } from 'lucide-react';
 import { siteConfig, CONSOLE_URL } from '../config/site';
 import { useLanguage } from '../context/LanguageContext';
 import { ContactModal } from './ContactModal';
@@ -32,8 +32,8 @@ export function Navbar({ onNavClick }: NavbarProps) {
         {/* Brand Logo & Name */}
         <a href="#" className="flex items-center space-x-3 group">
           <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-brand-cyan via-brand-indigo to-brand-violet p-0.5 flex items-center justify-center shadow-lg shadow-brand-cyan/20 group-hover:shadow-brand-cyan/40 transition-shadow">
-            <div className="w-full h-full bg-dark-canvas rounded-[7px] flex items-center justify-center">
-              <Cpu className="w-5 h-5 text-brand-cyan" />
+            <div className="w-full h-full bg-dark-canvas rounded-[7px] flex items-center justify-center overflow-hidden p-0.5">
+              <img src="/favicon.png" alt={siteConfig.name} className="w-full h-full object-contain" />
             </div>
           </div>
           <span className="font-semibold text-lg tracking-tight apple-gradient-text">{siteConfig.name}</span>
