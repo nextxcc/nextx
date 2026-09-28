@@ -42,7 +42,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-7 h-7 rounded-lg bg-brand-cyan/20 border border-brand-cyan/40 flex items-center justify-center overflow-hidden p-0.5">
-                <img src="/favicon.png" alt="NextX" className="w-full h-full object-contain" />
+                <img src="/favicon.png?v=2" alt="NextX" className="w-full h-full object-contain" />
               </div>
               <span className="font-semibold text-white">NextX</span>
             </div>

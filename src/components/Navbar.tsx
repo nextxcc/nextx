@@ -33,7 +33,7 @@ export function Navbar({ onNavClick }: NavbarProps) {
         <a href="#" className="flex items-center space-x-3 group">
           <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-brand-cyan via-brand-indigo to-brand-violet p-0.5 flex items-center justify-center shadow-lg shadow-brand-cyan/20 group-hover:shadow-brand-cyan/40 transition-shadow">
             <div className="w-full h-full bg-dark-canvas rounded-[7px] flex items-center justify-center overflow-hidden p-0.5">
-              <img src="/favicon.png" alt={siteConfig.name} className="w-full h-full object-contain" />
+              <img src="/favicon.png?v=2" alt={siteConfig.name} className="w-full h-full object-contain" />
             </div>
           </div>
           <span className="font-semibold text-lg tracking-tight apple-gradient-text">{siteConfig.name}</span>
